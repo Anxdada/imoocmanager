@@ -1,3 +1,5 @@
+based the video on bilibili: https://www.bilibili.com/video/av76294733
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
