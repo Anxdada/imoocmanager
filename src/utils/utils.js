@@ -9,10 +9,14 @@ export default {
         if (day < 10) {
             day = '0' + day;
         }
+        let hours = date.getHours(); 
+        if (hours < 10) {
+            hours = '0' + hours;
+        }
         let minutes = date.getMinutes(); 
         if (minutes < 10) {
             minutes = '0' + minutes;
         }
-        return date.getFullYear() + '-' + month + '-' + day + ' ' + date.getHours() + ':' + minutes;
+        return date.getFullYear() + '-' + month + '-' + day + ' ' + hours + ':' + minutes;
     }
 }
